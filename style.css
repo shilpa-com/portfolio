@@ -68,3 +68,12 @@ ul li {
     padding-left: 15px;
     margin-top: 15px;
 }
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #243b55;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
