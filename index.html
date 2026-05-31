@@ -1,195 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-
-    <title>N Shilpa Portfolio</title>
-
-    <link rel="preconnect"
-    href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N Shilpa — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+<!-- NAV -->
 <nav>
-
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-
+  <a href="#" class="nav-logo">N<span>.</span>Shilpa</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="N Shilpa_Resume.pdf" class="nav-cta" target="_blank">Resume ↗</a></li>
+  </ul>
 </nav>
 
-<header>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="hero-blob hero-blob-3"></div>
+  </div>
 
-    <h1>N Shilpa</h1>
-
-    <p>
-    Aspiring Software Engineer | Python Full Stack Developer |
-    2026 Graduate
-
-    </p>
-
-    <div class="buttons">
-
-        <a href="N Shilpa_Resume.pdf" target="_blank">
-            Resume
-        </a>
-
-        <a href="https://github.com/shilpa-com"
-        target="_blank">
-            GitHub
-        </a>
-
-        <a href="https://www.linkedin.com/in/nshilpa05?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-        target="_blank">
-            LinkedIn
-        </a>
-
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-tag">Open to work · ISE 2026 Graduate</div>
+      <h1 class="hero-title">N Shilpa<span class="line2">.</span></h1>
+      <p class="hero-role">Aspiring Software Engineer</p>
+      <p class="hero-subtitle">
+        Information Science & Engineering graduate skilled in Python, full-stack development, and cloud technologies — passionate about building practical applications that make an impact.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects →</a>
+        <a href="#contact" class="btn-secondary">Get in Touch</a>
+      </div>
     </div>
 
-</header>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-avatar">NS</div>
+        <div class="hero-card-name">N Shilpa</div>
+        <div class="hero-card-role">Python Full Stack Developer</div>
+        <div class="hero-card-stats">
+          <div class="stat-item">
+            <div class="stat-num">2+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">8+</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Internship</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">'26</div>
+            <div class="stat-label">Graduate</div>
+          </div>
+        </div>
+        <div class="hero-skills-row">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">Django</span>
+          <span class="skill-chip">SQL</span>
+          <span class="skill-chip">AWS</span>
+          <span class="skill-chip">JavaScript</span>
+          <span class="skill-chip">ISE</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-hint-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
 <section id="about">
-
-    <h2>About Me</h2>
-
-    <p>
-         Aspiring Software Engineer skilled in Python,
-         web development, and cloud basics with a strong
-         interest in building practical applications.
-    </p>
-
-</section>
-
-<section id="skills">
-
-    <h2>Skills</h2>
-
-    <div class="skills">
-
-        <div class="skill">Python</div>
-        <div class="skill">Django</div>
-        <div class="skill">SQL</div>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">Git</div>
-        <div class="skill">AWS</div>
-
-    </div>
-
-</section>
-<section id="experience">
-
-    <h2>Experience</h2>
-
-    <div class="project">
-
-        <h3>Python Full Stack Developer Intern - Pentagon Space Pvt Ltd</h3>
-
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Turning ideas<br>into reality</h2>
         <p>
-
-            Gained hands-on experience in Python full-stack
-            development by working on web applications using
-            Django, SQL, HTML, CSS, and JavaScript.
-
+          I'm <strong>N Shilpa</strong>, a 2026 Information Science & Engineering graduate with a strong foundation in Python, web development, and cloud fundamentals. I thrive on building practical applications that make an impact.
         </p>
+        <p>
+          I've interned at <strong>Pentagon Space Pvt Ltd</strong> as a Python Full Stack Developer and completed an <strong>AWS Cloud Foundations training</strong> with Magic Bus India Foundation — giving me a well-rounded view of both application development and cloud basics. I'm now actively looking for opportunities to contribute to exciting teams and products.
+        </p>
+        <div class="about-links">
+          <a href="https://github.com/shilpa-com" target="_blank" class="social-link">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/nshilpa05" target="_blank" class="social-link">
+            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="N Shilpa_Resume.pdf" target="_blank" class="social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+            Resume
+          </a>
+        </div>
+      </div>
 
+      <div class="about-highlights reveal">
+        <div class="highlight-card">
+          <div class="highlight-icon">🎓</div>
+          <div class="highlight-title">ISE Graduate · 2026</div>
+          <div class="highlight-desc">Pursuing a degree in Information Science & Engineering with focus on software development, data structures, and cloud computing.</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">💼</div>
+          <div class="highlight-title">Intern · Pentagon Space Pvt Ltd</div>
+          <div class="highlight-desc">Built production-grade web applications using Python, Django, and SQL in a real-world professional environment (2026).</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">☁️</div>
+          <div class="highlight-title">AWS Cloud Training · 2025</div>
+          <div class="highlight-desc">Completed AWS Cloud Foundations training via Magic Bus India Foundation — covering core cloud concepts, compute, storage, and networking basics.</div>
+        </div>
+      </div>
     </div>
-
+  </div>
 </section>
 
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">What I Know</div>
+    <h2 class="section-title">Skills & Technologies</h2>
+    <p class="section-sub">A growing toolkit across backend, frontend, databases, and cloud — with more being added every day.</p>
+    <div class="skills-grid reveal">
+      <div class="skill-category">
+        <div class="skill-cat-icon">🐍</div>
+        <div class="skill-cat-name">Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Django</span>
+          <span class="skill-tag">Flask</span>
+          <span class="skill-tag">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-icon">🌐</div>
+        <div class="skill-cat-name">Frontend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-icon">🗄️</div>
+        <div class="skill-cat-name">Databases</div>
+        <div class="skill-tags">
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">SQLite</span>
+          <span class="skill-tag">Data Modeling</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-icon">🛠️</div>
+        <div class="skill-cat-name">Tools & Cloud</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">EC2</span>
+          <span class="skill-tag">S3</span>
+          <span class="skill-tag">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-label">Work History</div>
+    <h2 class="section-title">Experience</h2>
+    <p class="section-sub">Real-world experience building production software.</p>
+    <div class="exp-timeline reveal">
+      <div class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">2026</span>
+          <span class="exp-company">Pentagon Space Pvt Ltd · Internship</span>
+        </div>
+        <div class="exp-title">Python Full Stack Developer Intern</div>
+        <p class="exp-desc">Gained hands-on experience in Python full-stack development by contributing to real web applications. Worked across the entire stack — from backend logic in Django and database operations in SQL, to crafting responsive UIs with HTML, CSS, and JavaScript. Collaborated in a professional environment and shipped features end-to-end.</p>
+      </div>
+      <div class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-date">2025</span>
+          <span class="exp-company">Magic Bus India Foundation · Training</span>
+        </div>
+        <div class="exp-title">AWS Cloud Foundations Training</div>
+        <p class="exp-desc">Completed beginner-level AWS cloud training under Magic Bus India Foundation. Gained foundational knowledge of core AWS services including compute, storage, and networking — building a solid base for cloud-based development and deployment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
 <section id="projects">
-
-    <h2>Projects</h2>
-
-    <div class="projects-container">
-
-        <div class="project">
-
-            <h3>Online Sports Shopping Management System</h3>
-
-            <p>
-                Developed a full-stack e-commerce application
-                using Python, Django, SQL, HTML, CSS,
-                and JavaScript.
-            </p>
-
-            <a href="https://github.com/shilpa-com/online-sports-shopping-system"
-            target="_blank">
-                View Project
-            </a>
-
-        </div>
-
-        <div class="project">
-
-            <h3>Personal Expense Tracker</h3>
-
-            <p>
-                Built a Flask-based expense tracking
-                application with CRUD operations
-                and dashboard analytics.
-            </p>
-
-            <a href="https://github.com/shilpa-com/expense-tracker"
-            target="_blank">
-                View Project
-            </a>
-
-        </div>
-        <div class="project">
-
-           <h3>More Projects Coming Soon</h3>
-
-           <p>
-               Currently working on new full-stack and cloud-based
-              projects focused on real-world problem solving
-              and scalable web applications.
-            </p>
-
-            <a href="#">
-            Coming Soon
-             </a>
-
-        </div>
-
+  <div class="container">
+    <div class="projects-header reveal">
+      <div>
+        <div class="section-label">My Work</div>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <a href="https://github.com/shilpa-com" target="_blank" class="btn-secondary">All on GitHub →</a>
     </div>
-
+    <div class="projects-grid reveal">
+      <div class="project-card featured">
+        <span class="project-badge badge-featured">Featured</span>
+        <div class="project-icon">🛒</div>
+        <div class="project-title">Online Sports Shopping Management System</div>
+        <div class="project-desc">A full-featured e-commerce platform for sports gear — complete with product catalogue, shopping cart, order management, and user authentication. Built end-to-end with a Python/Django backend and clean frontend.</div>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">Django</span>
+          <span class="stack-tag">SQL</span>
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">JavaScript</span>
+        </div>
+        <a href="https://github.com/shilpa-com/online-sports-shopping-system" target="_blank" class="project-link">
+          View on GitHub
+          <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+      <div class="project-card">
+        <span class="project-badge badge-new">Flask</span>
+        <div class="project-icon">💰</div>
+        <div class="project-title">Personal Expense Tracker</div>
+        <div class="project-desc">A smart expense tracking app with full CRUD support and a visual analytics dashboard. Track your spending habits by category, view monthly summaries, and stay on top of your budget — all in one place.</div>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">Flask</span>
+          <span class="stack-tag">SQLite</span>
+          <span class="stack-tag">Chart.js</span>
+          <span class="stack-tag">Bootstrap</span>
+        </div>
+        <a href="https://github.com/shilpa-com/expense-tracker" target="_blank" class="project-link">
+          View on GitHub
+          <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+      <div class="project-card coming-soon">
+        <span class="project-badge badge-soon">Coming Soon</span>
+        <div class="project-icon">🚀</div>
+        <div class="project-title">Next Project</div>
+        <div class="project-desc">Currently working on new full-stack and cloud-based projects focused on real-world problem solving and scalable web applications. Stay tuned!</div>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">AWS</span>
+          <span class="stack-tag">Django</span>
+        </div>
+        <span class="project-link" style="opacity:0.4; cursor:default">In progress...</span>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
-
-    <h2>Contact</h2>
-
-    <p>Email: shilpa.n0507@gmail.com</p>
-
+  <div class="container">
+    <div class="contact-layout">
+      <div class="contact-info reveal">
+        <div class="section-label">Say Hello</div>
+        <h2 class="contact-title">Let's work<br><span>together.</span></h2>
+        <p>Whether you have a role to fill, a project to build, or just want to connect — my inbox is always open. I'll get back to you promptly.</p>
+        <div class="contact-items">
+          <a href="mailto:shilpa.n0507@gmail.com" class="contact-item">
+            <div class="contact-item-icon">📧</div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">shilpa.n0507@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://github.com/shilpa-com" target="_blank" class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">GitHub</div>
+              <div class="contact-item-value">github.com/shilpa-com</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/nshilpa05" target="_blank" class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">LinkedIn</div>
+              <div class="contact-item-value">linkedin.com/in/nshilpa05</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-control" placeholder="Jane Smith">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control" placeholder="jane@company.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Subject</label>
+          <input type="text" class="form-control" placeholder="Opportunity / Collaboration / Hello">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" placeholder="Tell me about the opportunity or project..."></textarea>
+        </div>
+        <button class="form-submit" onclick="this.textContent='Message Sent ✓'; this.style.background='#1D9E75'; setTimeout(()=>{this.textContent='Send Message';this.style.background='';},3000)">Send Message</button>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- FOOTER -->
 <footer>
-
-    <p>
-        © 2025 N Shilpa | Portfolio
-    </p>
-
+  <span class="footer-copy">© 2025 N Shilpa. Crafted with ♥</span>
+  <ul class="footer-links">
+    <li><a href="https://github.com/shilpa-com" target="_blank">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/nshilpa05" target="_blank">LinkedIn</a></li>
+    <li><a href="mailto:shilpa.n0507@gmail.com">Email</a></li>
+  </ul>
 </footer>
 
-</body>
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.padding = window.scrollY > 80 ? '0.875rem 4rem' : '1.25rem 4rem';
+  });
+</script>
+
+</body>
 </html>
