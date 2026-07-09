@@ -697,4 +697,19 @@ footer {
   .contact-layout { grid-template-columns: 1fr; gap: 3rem; }
   footer { padding: 1.5rem 2rem; }
   .projects-grid { grid-template-columns: 1fr; }
+
+  /* ── LEETCODE & HACKERRANK ICON FIX ── */
+.social-link svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+/* ── PROJECTS 2-column on wide screens ── */
+@media (min-width: 1100px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 }
